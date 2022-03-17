@@ -16,5 +16,6 @@ const generateRiverDataFiles =async (
     saveToCsvFile(readings, 'leituras.csv')
     
 }
+generateRiverDataFiles('66945000' , new Date (2022, 2, 16) , new Date (2022, 2, 16)
 
 fetchRiverReadingData('66945000' , new Date (2022, 2, 16) , new Date (2022, 2, 16))
